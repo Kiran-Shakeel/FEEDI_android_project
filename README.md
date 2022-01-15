@@ -1,1 +1,10 @@
 # FEEDI_android_project
+![1-Splash Screen](https://user-images.githubusercontent.com/87908817/149633975-f0c21ec7-5f5f-4724-83c6-4cdd2217add6.png)
+![2](https://user-images.githubusercontent.com/87908817/149633998-88cf2833-973e-4b63-b57f-dca3c44f2154.png)
+![3](https://user-images.githubusercontent.com/87908817/149634002-13cdb223-2022-4579-a456-774ac30aab8e.jpeg)
+![1](https://user-images.githubusercontent.com/87908817/149634005-964e98bd-7c44-45a8-b31c-e8f7ae743bf5.png)
+![11](https://user-images.githubusercontent.com/87908817/149634011-fe099d3b-3dd8-4d91-84b4-b0b6366ed00f.png)
+![13](https://user-images.githubusercontent.com/87908817/149634017-edf04f9b-a74a-4a5e-9705-6b5ee62eb872.png)
+![16](https://user-images.githubusercontent.com/87908817/149634025-29bc2a49-1348-40da-8c3a-3a1a6a8322ab.png)
+![1](https://user-images.githubusercontent.com/87908817/149634030-acfe063c-7474-4979-97bc-69cd55c8fb50.png)
+![11](https://user-images.githubusercontent.com/87908817/149634070-32e28ec0-499b-4d89-b2f5-3f16cb75c336.png)
