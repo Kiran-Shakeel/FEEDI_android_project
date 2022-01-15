@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.feedi"
+    >
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <!--external Strogae permission-->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!--For Location-->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Feedi">
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBREpUecQct5tmRSRd304pqUhDZiXMsciI" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".MainActivity"
+            android:theme="@style/Theme.Feedi"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".sign_up"
+            android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".signIn"
+            android:label=""
+            android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".donor_home" />
+
+        <activity
+            android:name=".forget_pass"
+            android:label=""
+            android:windowSoftInputMode="stateHidden"/>
+        <activity
+            android:name=".user_create_profile"
+            android:label="@string/create_profile"
+            android:windowSoftInputMode="stateHidden"/>
+
+        <activity
+            android:name=".donor_adding_leftover"
+            android:label=""
+            android:windowSoftInputMode="stateHidden"/>
+
+        <activity
+            android:name=".donor_profile"
+            android:label=""
+            android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat"/>
+        <activity
+            android:name=".user_edit_profile"
+            android:label=""
+            android:windowSoftInputMode="stateHidden"/>
+
+        <activity
+            android:name=".settings"
+            android:label=""
+            android:windowSoftInputMode="stateHidden"/>
+        <activity
+            android:name=".all_reviews"
+            android:label="" />
+
+
+        <activity
+            android:name=".otp_verification"
+            android:label="" />
+        <activity
+            android:name=".leftover_list"
+            android:label="" />
+        <activity
+            android:name=".leftover_description"
+            android:label="" />
+
+        <activity
+            android:name=".update_leftover"
+            android:label="" />
+
+        <activity
+            android:name=".leftover_done"
+            android:label="" />
+
+        <activity
+            android:name=".needy_home"
+            />
+
+        <activity
+            android:name=".needy_profile"
+            android:label="" />
+
+        <activity
+            android:name=".needy_adding_request"
+            android:label="" />
+
+        <activity
+            android:name=".request_list"
+            android:label="" />
+
+        <activity
+            android:name=".needy_request_description"
+            android:label="" />
+
+        <activity
+            android:name=".update_request"
+            android:label="" />
+
+
+        <activity
+            android:name=".needy_request_list"
+            android:label="" />
+
+        <activity
+            android:name=".donor_checking_request"
+            android:label="" />
+
+        <activity
+            android:name=".user_public_profile"
+            android:label="" />
+        <activity
+            android:name=".delivery_option"
+            android:label="" />
+
+        <activity
+            android:name=".address_info"
+            android:label="" />
+
+        <activity
+            android:name=".accepted_requests_donor"
+            android:label="" />
+
+        <activity
+            android:name=".accepted_request_donor_list"
+            android:label="" />
+
+        <activity
+            android:name=".accepted_request_donor_description"
+            android:label="" />
+
+        <activity
+            android:name=".leftover_list_needy_home"
+            android:label="" />
+
+        <activity
+            android:name=".needy_checking_leftover"
+            android:label="" />
+
+        <activity
+            android:name=".needy_adding_request_leftover"
+            android:label="" />
+
+        <activity
+            android:name=".needy_leftover_request_description"
+            android:label="" />
+        <activity
+            android:name=".update_leftover_request"
+            android:label="" />
+
+        <activity
+            android:name=".adding_review"
+            android:label="" />
+
+        <activity
+            android:name=".activity_message"
+            android:label="" />
+
+        <activity
+            android:name=".chat_list"
+            android:label="" />
+
+        <activity
+            android:name=".admin_home"
+            android:label="" />
+
+        <activity
+            android:name=".admin_create_profile"
+            android:label="" />
+
+        <activity
+            android:name=".sub_admin_home"
+            android:label="" />
+
+        <activity
+            android:name=".feedback"
+            android:label="" />
+
+        <activity
+            android:name=".about_us"
+            android:label="" />
+
+        <activity
+            android:name=".feedback_list"
+            android:label="" />
+
+
+
+        <service
+            android:name=".SendNotificationPack.MyFireBaseMessagingService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".SendNotificationPack.MyFirebaseIdService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+    </application>
+
+</manifest>

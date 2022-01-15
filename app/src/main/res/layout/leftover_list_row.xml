@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/left_over"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/leftover"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/deliver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/left_over"
+        android:text="@string/delivery_option"
+        android:textColor="@color/black"
+        android:ellipsize="end"
+        android:maxLines="1"/>
+
+    <TextView
+        android:id="@+id/expire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/deliver"
+        android:text="@string/select_date"
+        android:textColor="@color/black" />
+
+
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/deliver"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/status"
+        android:textColor="@color/black" />
+
+</RelativeLayout>

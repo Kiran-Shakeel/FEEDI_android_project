@@ -1,0 +1,193 @@
+<resources>
+    <string name="app_name">Feedi</string>
+    <string name="account_label">Create an Account</string>
+    <string name="enter_number">Enter Number</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="already_have_account_sign_in">Already have Account?Sign in</string>
+    <string name="contact_123456">Contact:123456</string>
+    <string name="sign_in">Sign In</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="sign_in_to_your_account_label">Sign In to your account</string>
+    <string name="back_icon">back_icon</string>
+    <string name="submit">submit</string>
+    <string name="forget_password_label">Forget Password</string>
+    <string name="forget_description">Enter your contact number below and we will send you a reset link.</string>
+    <string name="city">City</string>
+    <string name="cnic">Cnic</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
+    <string name="create_profile">Create Profile</string>
+    <string name="next">Next</string>
+
+    <string name="gender">Gender</string>
+
+    <string name="enter_email">Enter Email</string>
+
+    <string name="about_img">about_img</string>
+    <string name="about_yourself">About Yourself</string>
+    <string name="title_activity_drawer">drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="settings">Settings</string>
+    <string name="reviews">Reviews</string>
+
+    <string name="profile">Profile</string>
+
+    <string name="sign_out">Sign out</string>
+    <string name="terms_and_conditions">Terms and Conditions</string>
+    <string name="about_us">About Us</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="name_of_person">Name of Person</string>
+
+    <string name="app">App</string>
+    <string name="user">User</string>
+    <string name="account">Account</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="plus_icon_string">Plus</string>
+    <string name="adding_leftover">Adding Leftover</string>
+    <string name="food_img">food_img</string>
+    <string name="about_food">About food</string>
+    <string name="instructions">Instructions</string>
+    <string name="select_date">Expirey Date</string>
+    <string name="delivery_option">Delivery option</string>
+    <string name="request">Request</string>
+    <string name="the_complete_request_of_needy">The complete request of needy</string>
+    <string name="food_info">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</string>
+    <string name="food_required_for_members_4">Food Required for members:4</string>
+    <string name="dummy">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen bookLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen bookLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen bookLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen bookLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen bookLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen bookLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen bookLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen bookLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen bookLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen bookLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen bookLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen bookLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen bookLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen bookLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen bookLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen bookLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen bookLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen bookLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen bookLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen bookLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen bookLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen bookLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen bookLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen bookLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen bookLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen bookLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen bookLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen bookLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen bookLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen bookLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen bookLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</string>
+    <string name="accept">Accept</string>
+    <string name="reject">Reject</string>
+    <string name="chat">Chat</string>
+    <string name="view_profile">View Profile</string>
+    <string name="delivery_options">Delivery Options</string>
+    <string name="deliver_by_me">Deliver By me</string>
+
+    <string name="pickup_by_needy">Pickup By needy</string>
+    <string name="success_icon">success_icon</string>
+    <string name="success">Success!</string>
+    <string name="button">Button</string>
+    <string name="okay">Okay</string>
+    <string name="info">Your Choice has been sent to the needy and if it suitable for him/her then he/she\'ll send you the address in chat</string>
+    <string name="address_information">Address Information</string>
+    <string name="edit_icon">edit_icon</string>
+    <string name="requests">Requests</string>
+    <string name="accepted">Accepted</string>
+    <string name="chats">Chats</string>
+    <string name="leftovers">Leftovers</string>
+    <string name="email">Email</string>
+        <string name="gujranwala">Gujranwala</string>
+    <string name="phone_no">Phone no.</string>
+    <string name="female">Female</string>
+
+
+    <string name="number2">+923201234567</string>
+    <string name="address">Address:</string>
+    <string name="mark_as_done">Mark As Done</string>
+    <string name="delete">Delete</string>
+    <string name="enter_comment_optional">Enter comment (optional)</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="name">Name</string>
+    <string name="report">Report</string>
+    <string name="enter_reason">Enter Reason</string>
+    <string name="push_notifications">Push Notifications</string>
+    <string name="chat_notifications">Chat Notifications</string>
+    <string name="my_requests">My Requests</string>
+    <string name="post">Post</string>
+    <string name="enter_information">Enter Information</string>
+    <string name="leftover">Leftover</string>
+    <string name="all_requests">All Requests</string>
+    <string name="profile_by">Profile By:</string>
+
+    <string name="average">Average:</string>
+    <string name="_4_7">4.7</string>
+    <string name="accepted_requests">Accepted Requests</string>
+    <string name="update">Update</string>
+    <string name="all_reviews">All Reviews</string>
+    <string name="average_rating">Average Rating:</string>
+    <string name="all_admins">All Admins</string>
+    <string name="no_of_requests_added">No. of requests added:</string><string name="_03007409750">03007409750</string>
+    <string name="_40">40</string>
+    <string name="assigned_city">Assigned City</string>
+    <string name="password">Password</string>
+    <string name="suspend">Suspend</string>
+    <string name="title_activity_home">Map</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="enable_the_location">Enable the location</string>
+    <string name="or">Or</string>
+    <string name="get_address_from_profile">Get Address From Profile</string>
+    <string name="admin_panel">Admin Panel</string>
+    <string name="title_activity_admin_home2">admin_home2</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="reported">Reported</string>
+    <string name="suspended">Suspended</string>
+    <string name="all">All</string>
+    <string name="status">Status</string>
+    <string name="imgg66">imgg66</string>
+    <string name="searching">searching</string>
+    <string name="name_of_sub_admin">Name of Sub-admin</string>
+    <string name="about">About</string>
+
+    <string name="show_result">Show Result</string>
+    <string name="_92">+92</string>
+    <string name="_92_320_1234567">+92 320 1234567</string>
+    <string name="verify">Verify</string>
+    <string name="invalid_number">*invalid number</string>R
+    <string name="contact_us_at_92_320_1234567">contact us at +92 320 1234567</string>
+    <string name="feedi">Feedi</string>
+    <string name="invalid_code">*invalid code</string>
+    <string name="verification_code">Verification Code</string>
+    <string name="please_enter_verification_code_sent_to">Please enter verification code sent to</string>
+<string name="kiranshakeel02gmail_com">"kiranshakeel02@gmail.com"</string>
+    <string name="donor">Donor</string>
+    <string name="needy">Needy</string>
+    <string name="personal_information">Personal Information</string>
+    <string name="write_something_about_yourself">Write Something about yourself</string>
+    <string name="done">Done</string>
+    <string name="select_image">Select Image</string>
+    <string name="_3410163121954">3410163121954</string>
+    <string name="show_results_by">Show results by</string>
+    <string name="or_">OR</string>
+    <string name="profile_address">Profile Address</string>
+    <string name="last">Last</string>
+    <string name="first">First</string>
+    <string name="user_email">user email</string>
+    <string name="not_provided">not provided</string>
+    <string name="email_optional">Email (optional)</string>
+    <string name="enter_email_optional">Enter Email (optional)</string>
+    <string name="food_available_for_only_numbers">Food Available for (only numbers)</string>
+    <string name="enter_address">Enter Address</string>
+    <string name="information_instruction">Information/Instruction</string>
+    <string name="address_will_not_be_shown_publicly_and_you_can_edit_the_address">*Address will not be shown without your permission</string>
+    <string name="you_can_enable_this_option_by_deleting_you_recent_request">*You can enable this option by deleting you recent request</string>
+    <string name="textview">TextView</string>
+    <string name="you_can_add_request_after">You can add request after:</string>
+    <string name="setting_location">Setting location</string>
+    <string name="expiry_date">Expiry Date</string>
+    <string name="add_review">Add Review</string>
+    <string name="view_leftover">View Leftover</string>
+    <string name="review">review</string>
+    <string name="_5_0">5.0</string>
+    <string name="todo">TODO</string>
+    <string name="type_a_message">Type a message...</string>
+    <string name="message">message</string>
+    <string name="_0_0">0.0</string>
+    <string name="sub_admin_panel">Sub Admin Panel</string>
+    <string name="enter_your_feedback">Enter Your Feedback...</string>
+    <string name="enter_comment">Enter Comment</string>
+
+</resources>

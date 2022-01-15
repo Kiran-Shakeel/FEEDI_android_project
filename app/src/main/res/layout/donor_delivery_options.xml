@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+
+
+        <RelativeLayout
+            android:id="@+id/l1"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+
+            android:background="@color/black">
+
+            <ImageView
+                android:id="@+id/back_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:contentDescription="@string/back_icon"
+                android:src="@drawable/arrow_white" />
+
+            <TextView
+                android:id="@+id/label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="70dp"
+                android:text="@string/delivery_options"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+        </RelativeLayout>
+
+
+        <RadioGroup
+            android:id="@+id/deliver_option"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <RadioButton
+                android:id="@+id/deliver_by_me"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="50dp"
+                android:padding="25dip"
+                android:text="@string/deliver_by_me"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/pickup_by_needy"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+
+
+                android:padding="25dip"
+                android:text="@string/pickup_by_needy"
+                android:textSize="20sp" />
+        </RadioGroup>
+
+    </LinearLayout>
+</ScrollView>

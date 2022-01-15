@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@color/black">
+
+                <com.google.android.material.appbar.AppBarLayout
+                    android:id="@+id/app_bar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/AppTheme">
+
+                    <androidx.appcompat.widget.Toolbar
+                        android:id="@+id/toolbar_sub"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:popupTheme="@style/Theme.Feedi">
+
+
+                    </androidx.appcompat.widget.Toolbar>
+                </com.google.android.material.appbar.AppBarLayout>
+
+
+                <TextView
+                    android:id="@+id/label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/app_bar"
+                    android:layout_margin="20dp"
+
+                    android:text="@string/adding_leftover"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/person_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/label"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/first"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/last_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/label"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toEndOf="@+id/person_name"
+                    android:layout_toRightOf="@+id/person_name"
+                    android:text="@string/last"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/person_city"
+                    android:layout_width="wrap_content"
+                    android:layout_height="44dp"
+                    android:layout_below="@+id/label"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:text="@string/city"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/img_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="180dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                app:cardCornerRadius="30dp">
+
+
+                <ImageView
+                    android:id="@+id/food_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:clickable="true"
+                    android:contentDescription="@string/food_img"
+                    android:focusable="true"
+                    android:onClick="add_image"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/download" />
+
+            </androidx.cardview.widget.CardView>
+
+            <EditText
+                android:id="@+id/ins"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_card"
+                android:layout_margin="10dp"
+
+                android:background="@drawable/edit_text_border"
+                android:ems="10"
+                android:hint="@string/information_instruction"
+                android:inputType="textMultiLine"
+                android:textColorHighlight="#F40000"
+                android:textColorHint="#000000" />
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <EditText
+                android:id="@+id/date"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/edit_text_border"
+                android:ems="10"
+                android:hint="@string/select_date"
+                android:inputType="date"
+                android:textColorHighlight="#F40000"
+                android:textColorHint="#000000" />
+
+
+            <Spinner
+                android:id="@+id/delivery"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/edit_text_border"
+
+                />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/available"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+
+            android:layout_margin="10dp"
+
+            android:background="@drawable/edit_text_border"
+            android:ems="10"
+            android:hint="@string/food_available_for_only_numbers"
+            android:inputType="number"
+            android:maxLength="4"
+            android:textColorHighlight="#F40000"
+            android:textColorHint="#000000" />
+
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+
+            android:background="@drawable/edit_text_border"
+            android:text="@string/setting_location"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+
+
+            android:gravity="center"
+            android:text="@string/address_will_not_be_shown_publicly_and_you_can_edit_the_address"
+            android:textColor="@color/red" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center|bottom"
+
+
+            >
+
+            <android.widget.Button
+                android:id="@+id/sub_left2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_shape"
+                android:onClick="home"
+                android:text="@string/submit"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

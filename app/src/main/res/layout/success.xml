@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:scrollbars="vertical"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical"
+    >
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="164dp"
+        android:layout_height="164dp"
+        android:contentDescription="@string/success_icon"
+        android:src="@drawable/success_icon"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+
+     />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/success"
+        android:textColor="#000000"
+        android:textSize="50sp"
+
+    />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center|bottom"
+       >
+
+        <android.widget.Button
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/okay"
+            android:background="@color/black"
+            android:layout_margin="10dp"
+           />
+    </LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>
